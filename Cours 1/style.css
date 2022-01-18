@@ -1,0 +1,17 @@
+* {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+
