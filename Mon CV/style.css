@@ -29,6 +29,14 @@
 
 }
 
+#ma_page{
+    width: 900px;
+    border-left: 30px solid black;
+    padding-left: 20px ;
+    
+  
+}
+
 header{
     display: flex;
     align-content: space-around;
@@ -36,10 +44,10 @@ header{
 }
 
 body {
-    background-image: url("image/background.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+      color: black;
+      display: flex;
+      justify-content: center;
+     
 }
 
 h1 {
@@ -82,28 +90,22 @@ p {
     font-family: 'robotobold', 'robotoregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.monexperience {
-    padding: 20px;
-    border-left: 2px solid white;
-    display: inline-block;
-    width: 30%;
-}
-
-.mescompetences {
-    padding: 20px;
-    border-left: 2px solid white;
-    display: inline-block;
-    width: 30%;
-}
-
-.maformation {
-    padding: 20px;
-    border-left: 2px solid white;
-    display: inline-block;
-    width: 30%;
-}
-
 section {
-    display: flex;
-    flex-wrap: wrap ;
+    display:flex;
+    
+}
+
+#monexperience{
+    width: 33%;
+    
+}
+
+#mescompetences{
+    width: 33%;
+    padding-left: 20px;
+}
+
+#maformation{
+    width: 33%;
+    padding-left: 20px;
 }
